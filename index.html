@@ -683,6 +683,7 @@
                 <a href="#" class="logo">Monte <span>Guardia</span></a>
                 <ul class="nav-links">
                     <li><a href="#about">Chi Siamo</a></li>
+                    <li><a href="#storia">Storia</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#gallery">Galleria</a></li>
                     <li><a href="#contact">Contatti</a></li>
@@ -712,6 +713,56 @@
                 </div>
                 <div class="about-image">
                     <img src="https://raw.githubusercontent.com/euroteamintadv/monteguardia/main/images/chi-siamo.jpg" alt="Chi Siamo - Trattoria Monte Guardia"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Storia Section -->
+    <section id="storia" style="background: var(--sabbia); padding: 90px 0;">
+        <div class="container">
+            <div class="section-title">
+                <h2>La Nostra Storia</h2>
+            </div>
+            <div style="display: flex; align-items: center; gap: 60px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 280px;">
+                    <img src="images/gallery-8.jpg"
+                         alt="A Cantin i Ciccillo Conte - la cantina storica di Ponza"
+                         style="width:100%; border-radius:4px; box-shadow: 0 12px 40px rgba(26,46,69,0.15);">
+                </div>
+                <div style="flex: 1.4; min-width: 280px;">
+                    <p style="font-family:'Playfair Display',serif; font-size:1.3rem; color:var(--arancio); margin-bottom:18px; font-style:italic;">"A Cantin i Ciccillo Conte" — La cantina di Francesco Conte</p>
+                    <p style="color:var(--testo-light); line-height:1.85; margin-bottom:16px; font-size:0.97rem;">
+                        Tutto comincia con Francesco Conte, soprannominato <em>"U Re da Guardia"</em> — il re del Monte Guardia. 
+                        Nato nel 1870, dedicò la sua vita alla famiglia e a questi terreni, strappando vino alla roccia 
+                        con una dedizione che ancora oggi si sente in ogni bicchiere.
+                    </p>
+                    <p style="color:var(--testo-light); line-height:1.85; margin-bottom:16px; font-size:0.97rem;">
+                        Emiliano, suo nipote, porta avanti con orgoglio questa eredità: 
+                        <em>"Sono immensamente orgoglioso di occuparmi del tuo vigneto e ti dedico ogni sforzo, 
+                        pensando alla fatica e al sacrificio con cui hai reso fertile questo pezzo di terra."</em>
+                    </p>
+                    <p style="color:var(--testo-light); line-height:1.85; font-size:0.97rem;">
+                        Oggi, con la stessa fatica e passione, la Trattoria Monte Guardia porta in tavola 
+                        il biancolella e il primitivo nati da queste viti centenarie — 
+                        <strong style="color:var(--testo);">sapori semplici e genuini</strong>, 
+                        fedeli al motto di Francesco: <em>"Mitt a ber"</em> — metti a bere.
+                    </p>
+                    <div style="margin-top:28px; display:flex; gap:40px; flex-wrap:wrap;">
+                        <div style="text-align:center;">
+                            <div style="font-family:'Playfair Display',serif; font-size:2rem; color:var(--arancio); font-weight:700;">1870</div>
+                            <div style="font-size:0.8rem; color:var(--testo-light); letter-spacing:0.08em; text-transform:uppercase; margin-top:4px;">Anno di fondazione</div>
+                        </div>
+                        <div style="text-align:center;">
+                            <div style="font-family:'Playfair Display',serif; font-size:2rem; color:var(--arancio); font-weight:700;">150+</div>
+                            <div style="font-size:0.8rem; color:var(--testo-light); letter-spacing:0.08em; text-transform:uppercase; margin-top:4px;">Anni di tradizione</div>
+                        </div>
+                        <div style="text-align:center;">
+                            <div style="font-family:'Playfair Display',serif; font-size:2rem; color:var(--arancio); font-weight:700;">4</div>
+                            <div style="font-size:0.8rem; color:var(--testo-light); letter-spacing:0.08em; text-transform:uppercase; margin-top:4px;">Generazioni</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -773,6 +824,12 @@
                 </div>
                 <div class="gallery-item" data-index="5" onclick="openLightbox(5)">
                     <img src="https://raw.githubusercontent.com/euroteamintadv/monteguardia/main/images/gallery-6.jpg" alt="Specialità di pesce Monte Guardia">
+                </div>
+                <div class="gallery-item" data-index="6" onclick="openLightbox(6)">
+                    <img src="https://raw.githubusercontent.com/euroteamintadv/monteguardia/main/images/gallery-7.jpg" alt="Grappoli di biancolella - vigne di Ponza">
+                </div>
+                <div class="gallery-item" data-index="7" onclick="openLightbox(7)">
+                    <img src="https://raw.githubusercontent.com/euroteamintadv/monteguardia/main/images/gallery-8.jpg" alt="A Cantin i Ciccillo Conte - storia della cantina Monte Guardia">
                 </div>
             </div>
         </div>
@@ -1043,7 +1100,9 @@
             'Trattoria Monte Guardia - sala con vista tramonto',
             'Trattoria Monte Guardia - sala interna',
             'Trattoria Monte Guardia - barca simbolo',
-            'Trattoria Monte Guardia - porto di Ponza di notte'
+            'Trattoria Monte Guardia - porto di Ponza di notte',
+            'Grappoli di biancolella - vigne di Ponza',
+            'A Cantin i Ciccillo Conte - la storia della cantina'
         ];
         let lbCurrent = 0;
         let touchStartX = 0;
